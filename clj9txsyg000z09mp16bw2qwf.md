@@ -1,5 +1,5 @@
 ---
-title: "Using HttpOnly Cookie for Session Management in Next.js"
+title: "🔑 Using HttpOnly Cookie for Session Management in Next.js"
 datePublished: Sat Jun 24 2023 09:59:52 GMT+0000 (Coordinated Universal Time)
 cuid: clj9txsyg000z09mp16bw2qwf
 slug: using-httponly-cookie-for-session-management-in-nextjs
@@ -34,7 +34,7 @@ Great 🎉, we have tackled the `why doing it` and `what to do` parts.
 
 Let's get into the fun part which is `how to do` 🚀
 
-# Project Setup
+# 🧱 Project Setup
 
 ```bash
 > npx create-next-app@latest
@@ -52,7 +52,7 @@ Use App Router (recommended)? >> No
 Would you like to customize the default import alias? >> No
 ```
 
-# Library Installation
+# 📦 NPM Package Installation
 
 To accommodate our needs, we will be using this NPM package [`iron-session`](https://www.npmjs.com/package/iron-session)
 
@@ -60,7 +60,7 @@ To accommodate our needs, we will be using this NPM package [`iron-session`](htt
 > yarn add iron-session
 ```
 
-# Implementations
+# 🏗️ Implementations
 
 ### (1). Config session options
 
@@ -277,7 +277,7 @@ Awesome 🚀🎉 ... Let's continue to get info about the user from the session.
 
 ### (5) Create a home page
 
-In directory `pages`, create a file `index.ts` *(Basically, I just remove all the stuff scaffolded by* `next-create-app`*, primarily for simplicity* 🤣*)*
+In directory `pages`, create a file `index.ts` *(Basically, I just remove all the stuff scaffolded by* `next-create-app`*, primarily for simplicity* 🤣\*)\*
 
 ```typescript
 /** File: src/pages/index.tsx */
@@ -375,7 +375,7 @@ export default HomePage;
 
 For the "Home" page, we have added a button to log out. By clicking on the button "Logout", we will call to API to destroy the session and route the user back to the "Login" page.
 
-## That is it!! 🚀
+## 🚀 That is it!
 
 We've done it, let's revise our goals. We've achieved what we need.
 
@@ -386,14 +386,14 @@ We've done it, let's revise our goals. We've achieved what we need.
 3. ✅ Upon the user logging out, we clear the session
     
 
-## Get the codes here 💻
+## 💻 Get the codes here
 
 You can find all codes written in this blog here at [GitHub Repo](https://github.com/TVYDev/nextjs-explore/tree/feature/1-session-management-httponly-cookie).
 
-## Finally, don't get me wrong!!! 🥹
+## 🥹 Finally, don't get me wrong!
 
 There is a lot more to be done to make full authentication for a web app. This is an important part that we've achieved. Way to go!!
 
 So, stay tuned with this series **"Next.js Auth 🔐"**, which I will cover more in the upcoming posts.
 
-## Thanks, cheers! 🤟
+## 👏 Thanks, cheers!
